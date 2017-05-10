@@ -1,0 +1,13 @@
+{
+	"manifest_version":2,
+	"name": "PlantUML Chrome Renderer",
+    "author": "kitfactory@gmail.com",
+	"version": "0.1",
+    "content_scripts": [{
+        "matches": ["*://*/*"],
+        "js": ["renderer.js"]
+    }],
+    "options_page": "options.html"
+}
+
+
